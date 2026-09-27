@@ -8,6 +8,5 @@ id_*
 # OS / editor
 .vscode/
 Thumbs.db
-ansible/vault/secrets.yml
 monitoring/prometheus-data/
 backup-*.sql
