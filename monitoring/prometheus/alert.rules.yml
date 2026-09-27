@@ -1,0 +1,70 @@
+groups:
+
+  - name: telecom-availability
+    rules:
+
+      - alert: ServerDown
+        expr: up{job="telecom-servers"} == 0
+        for: 30s
+        labels:
+          severity: critical
+          team: noc
+        annotations:
+          summary: "{{ $labels.server }} is DOWN"
+          description: "Prometheus cannot scrape {{ $labels.instance }} (role: {{ $labels.role }}) for more than 30 seconds."
+
+  - name: telecom-resources
+    rules:
+
+      - alert: HighCPU
+        expr: 100 - (avg by (server) (rate(node_cpu_seconds_total{job="telecom-servers",mode="idle"}[2m])) * 100) > 80
+        for: 2m
+        labels:
+          severity: warning
+          team: noc
+        annotations:
+          summary: "High CPU on {{ $labels.server }}"
+          description: "CPU usage is {{ $value | printf \"%.1f\" }}% (threshold 80%) for more than 2 minutes."
+
+      - alert: HighMemory
+        expr: 100 * (1 - node_memory_MemAvailable_bytes{job="telecom-servers"} / node_memory_MemTotal_bytes{job="telecom-servers"}) > 90
+        for: 2m
+        labels:
+          severity: warning
+          team: noc
+        annotations:
+          summary: "High memory usage on {{ $labels.server }}"
+          description: "Memory usage is {{ $value | printf \"%.1f\" }}% (threshold 90%) for more than 2 minutes."
+
+      - alert: DiskAlmostFull
+        expr: 100 * (1 - max by (server) (node_filesystem_avail_bytes{job="telecom-servers",fstype=~"ext4|xfs|btrfs"}) / max by (server) (node_filesystem_size_bytes{job="telecom-servers",fstype=~"ext4|xfs|btrfs"})) > 85
+        for: 5m
+        labels:
+          severity: warning
+          team: noc
+        annotations:
+          summary: "Disk almost full on {{ $labels.server }}"
+          description: "Disk usage is {{ $value | printf \"%.1f\" }}% (threshold 85%)."
+
+      - alert: NetworkErrors
+        expr: (rate(node_network_receive_errs_total{job="telecom-servers",device!="lo"}[5m]) + rate(node_network_transmit_errs_total{job="telecom-servers",device!="lo"}[5m])) > 0
+        for: 5m
+        labels:
+          severity: warning
+          team: noc
+        annotations:
+          summary: "Network errors on {{ $labels.server }} ({{ $labels.device }})"
+          description: "{{ $value | printf \"%.2f\" }} errors/s on interface {{ $labels.device }}."
+
+  - name: telecom-monitoring-stack
+    rules:
+
+      - alert: AlertmanagerDown
+        expr: up{job="alertmanager"} == 0
+        for: 1m
+        labels:
+          severity: critical
+          team: noc
+        annotations:
+          summary: "Alertmanager is unreachable"
+          description: "Prometheus cannot reach Alertmanager: alerts will not be delivered."
