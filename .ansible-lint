@@ -1,0 +1,10 @@
+---
+# Start with the "min" profile (syntax and internal errors) so existing roles pass,
+# then raise it step by step: basic -> moderate -> safety -> shared -> production
+profile: min
+
+exclude_paths:
+  - .gitea/
+  - ci/
+  - monitoring/
+  - ansible/vault/

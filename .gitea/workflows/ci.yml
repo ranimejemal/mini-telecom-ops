@@ -1,0 +1,43 @@
+name: CI - quality and security gates
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  gates:
+    name: Quality and security gates
+    # Local image built from ci/Dockerfile: no third-party actions, no Internet needed
+    runs-on: telecom-ci
+    steps:
+      - name: Checkout from self-hosted Gitea
+        env:
+          TOKEN: ${{ gitea.token }}
+        run: |
+          git init -q .
+          git remote add origin "http://ci:${TOKEN}@telecom-gitea:3000/${{ gitea.repository }}.git"
+          git fetch -q --depth 1 origin "${{ gitea.sha }}"
+          git checkout -q FETCH_HEAD
+          git log -1 --format='Commit %h by %an: %s'
+
+      - name: "Gate 1 - YAML syntax and style (yamllint)"
+        run: yamllint --format parsable .
+
+      - name: "Gate 2 - Secret detection (gitleaks)"
+        run: gitleaks dir . --redact --verbose --no-banner
+
+      - name: "Gate 3 - Ansible best practices (ansible-lint)"
+        run: ANSIBLE_ROLES_PATH="$PWD/ansible/roles" ansible-lint --nocolor
+
+      - name: "Gate 4 - Monitoring configuration (promtool, amtool)"
+        run: |
+          promtool check rules monitoring/prometheus/alert.rules.yml
+          promtool check config --syntax-only monitoring/prometheus/prometheus.yml
+          amtool check-config monitoring/alertmanager/alertmanager.yml
+
+      - name: "Gate 5 - Infrastructure misconfigurations (Trivy)"
+        run: |
+          echo "--- Report (HIGH and CRITICAL) ---"
+          trivy config --quiet --severity HIGH,CRITICAL --exit-code 0 .
+          echo "--- Blocking gate (CRITICAL) ---"
+          trivy config --quiet --severity CRITICAL --exit-code 1 .

@@ -1,0 +1,17 @@
+log:
+  level: info
+
+runner:
+  file: /data/.runner
+  capacity: 1
+  timeout: 30m
+  labels:
+    - "telecom-ci:docker://telecom-ci:latest"
+
+container:
+  # Job containers join the lab network (reach telecom-gitea and the servers)
+  network: telecom-net
+  privileged: false
+  # Use the locally built telecom-ci image instead of pulling from a registry
+  force_pull: false
+  valid_volumes: []

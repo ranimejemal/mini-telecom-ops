@@ -117,6 +117,37 @@ services:
         ipv4_address: 172.30.0.70
     restart: unless-stopped
 
+  runner:
+    image: gitea/act_runner:latest
+    container_name: telecom-runner
+    hostname: runner
+    depends_on:
+      - gitea
+    environment:
+      CONFIG_FILE: /config.yaml
+      GITEA_INSTANCE_URL: http://telecom-gitea:3000
+      GITEA_RUNNER_REGISTRATION_TOKEN: ${RUNNER_TOKEN:-}
+      GITEA_RUNNER_NAME: telecom-runner
+    volumes:
+      - ./ci/runner/config.yaml:/config.yaml:ro
+      - runner_data:/data
+      # The runner starts CI jobs as sibling containers (security note: access to
+      # the Docker socket is equivalent to root on the Docker host)
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.80
+    restart: unless-stopped
+
+  # CI toolbox image used by the runner jobs (build only: docker compose build ci-image)
+  ci-image:
+    build:
+      context: .
+      dockerfile: ci/Dockerfile
+    image: telecom-ci:latest
+    profiles:
+      - build
+
   ansible:
     build:
       context: .
@@ -158,6 +189,9 @@ volumes:
 
   alertmanager_data:
     name: telecom_alertmanager_data
+
+  runner_data:
+    name: telecom_runner_data
 
 
 networks:
