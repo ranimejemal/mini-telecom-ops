@@ -6,6 +6,7 @@
       - fail2ban
       - rsyslog
       - libpam-pwquality
+      - acl   # needed for become_user to unprivileged users (e.g. postgres)
     state: present
     update_cache: true
     cache_valid_time: 3600
