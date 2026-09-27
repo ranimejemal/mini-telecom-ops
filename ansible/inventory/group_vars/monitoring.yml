@@ -1,0 +1,4 @@
+---
+firewall_role_rules:
+  - { port: "9090", from: "172.30.0.60", comment: "Prometheus API for Grafana" }
+  - { port: "9090", from: "172.30.0.1", comment: "Prometheus UI from Docker host" }

@@ -1,0 +1,26 @@
+---
+- name: Install security packages
+  ansible.builtin.apt:
+    name:
+      - ufw
+      - fail2ban
+      - rsyslog
+      - libpam-pwquality
+    state: present
+    update_cache: true
+    cache_valid_time: 3600
+
+- name: Check that the container can manage its firewall (NET_ADMIN)
+  ansible.builtin.command:
+    cmd: iptables -S
+  register: iptables_check
+  changed_when: false
+  failed_when: false
+
+- name: Stop if the container was not recreated with NET_ADMIN
+  ansible.builtin.assert:
+    that: iptables_check.rc == 0
+    fail_msg: >-
+      {{ inventory_hostname }} cannot manage iptables. Recreate it with the
+      new docker-compose.yml (cap_add: NET_ADMIN) before running this role.
+    quiet: true

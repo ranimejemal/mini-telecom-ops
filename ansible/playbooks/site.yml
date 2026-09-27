@@ -5,6 +5,7 @@
 
   roles:
     - role: common
+    - role: security_hardening
     - role: node_exporter
 
 - name: Configure Web Server

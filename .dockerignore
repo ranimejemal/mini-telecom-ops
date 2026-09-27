@@ -1,0 +1,4 @@
+# Build context is the project root: never send secrets or runtime data to image builds
+.git
+docker/ansible/ssh/id_ed25519
+monitoring/prometheus-data

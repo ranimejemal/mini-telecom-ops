@@ -1,0 +1,56 @@
+---
+# Order matters: allow rules first, then default deny, then enable,
+# so the Ansible SSH session is never cut.
+
+- name: Refuse to enable the firewall without an SSH allow rule (lockout protection)
+  ansible.builtin.assert:
+    that: >-
+      (firewall_common_rules + firewall_role_rules)
+      | selectattr('port', 'equalto', '22') | list | length > 0
+    fail_msg: >-
+      No SSH allow rule found for {{ inventory_hostname }}. Check that
+      inventory/group_vars/telecom.yml is next to hosts.ini. UFW was NOT changed.
+    quiet: true
+
+- name: Keep UFW compatible with containers (read-only /proc/sys, IPv4 only)
+  ansible.builtin.lineinfile:
+    path: /etc/default/ufw
+    regexp: "^{{ item.key }}="
+    line: "{{ item.key }}={{ item.value }}"
+  loop:
+    - { key: IPT_SYSCTL, value: /etc/ufw/sysctl-container.conf }
+    - { key: IPV6, value: "no" }
+
+- name: Ensure the container sysctl file exists
+  ansible.builtin.file:
+    path: /etc/ufw/sysctl-container.conf
+    state: touch
+    mode: '0644'
+    access_time: preserve
+    modification_time: preserve
+
+- name: Allow required inbound traffic
+  community.general.ufw:
+    rule: allow
+    port: "{{ item.port }}"
+    proto: "{{ item.proto | default('tcp') }}"
+    from_ip: "{{ item.from | default('any') }}"
+    comment: "{{ item.comment }}"
+  loop: "{{ firewall_common_rules + firewall_role_rules }}"
+  loop_control:
+    label: "{{ item.port }}/{{ item.proto | default('tcp') }} from {{ item.from | default('any') }}"
+
+- name: Deny all other inbound traffic by default
+  community.general.ufw:
+    default: deny
+    direction: incoming
+
+- name: Allow outbound traffic by default
+  community.general.ufw:
+    default: allow
+    direction: outgoing
+
+- name: Enable UFW
+  community.general.ufw:
+    state: enabled
+    logging: 'low'

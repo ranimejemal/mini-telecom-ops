@@ -1,8 +1,21 @@
+# Kernel network hardening for the telecom servers (network sysctls are
+# per-container namespaces; /proc/sys is read-only inside containers)
+x-hardened-sysctls: &hardened-sysctls
+  net.ipv4.conf.all.accept_redirects: 0
+  net.ipv4.conf.default.accept_redirects: 0
+  net.ipv4.conf.all.send_redirects: 0
+  net.ipv4.conf.all.accept_source_route: 0
+  net.ipv4.conf.all.rp_filter: 1
+  net.ipv4.conf.all.log_martians: 1
+  net.ipv4.icmp_echo_ignore_broadcasts: 1
+  net.ipv4.tcp_syncookies: 1
+
 services:
 
   web01:
     build:
-      context: ./docker/web
+      context: .
+      dockerfile: docker/web/Dockerfile
     container_name: telecom-web01
     hostname: web01
     ports:
@@ -10,6 +23,9 @@ services:
       - "2221:22"
     volumes:
       - web_data:/var/www/html
+    cap_add:
+      - NET_ADMIN
+    sysctls: *hardened-sysctls
     networks:
       telecom-net:
         ipv4_address: 172.30.0.10
@@ -17,13 +33,17 @@ services:
 
   db01:
     build:
-      context: ./docker/db
+      context: .
+      dockerfile: docker/db/Dockerfile
     container_name: telecom-db01
     hostname: db01
     ports:
       - "2222:22"
     volumes:
       - db_data:/var/lib/postgresql
+    cap_add:
+      - NET_ADMIN
+    sysctls: *hardened-sysctls
     networks:
       telecom-net:
         ipv4_address: 172.30.0.20
@@ -31,7 +51,8 @@ services:
 
   monitoring01:
     build:
-      context: ./docker/monitoring
+      context: .
+      dockerfile: docker/monitoring/Dockerfile
     container_name: telecom-monitoring01
     hostname: monitoring01
     ports:
@@ -42,6 +63,9 @@ services:
       - prometheus_data:/var/lib/prometheus
       - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
       - ./monitoring/prometheus/alert.rules.yml:/etc/prometheus/alert.rules.yml:ro
+    cap_add:
+      - NET_ADMIN
+    sysctls: *hardened-sysctls
     networks:
       telecom-net:
         ipv4_address: 172.30.0.30

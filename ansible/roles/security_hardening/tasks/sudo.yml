@@ -1,0 +1,9 @@
+---
+- name: Harden sudo defaults (pty, logging)
+  ansible.builtin.template:
+    src: sudo-defaults.j2
+    dest: /etc/sudoers.d/00-defaults
+    owner: root
+    group: root
+    mode: '0440'
+    validate: visudo -cf %s

@@ -1,0 +1,10 @@
+---
+- name: Reload SSH
+  ansible.builtin.service:
+    name: ssh
+    state: reloaded
+
+- name: Reload Fail2ban
+  ansible.builtin.command:
+    cmd: fail2ban-client reload
+  changed_when: true

@@ -4,6 +4,8 @@ set -e
 
 echo "[telecom] Starting monitoring services..."
 
+/usr/local/bin/boot-security.sh
+
 # Start SSH
 /usr/sbin/sshd
 
@@ -16,7 +18,7 @@ fi
 # Start Prometheus
 if ! pgrep -x prometheus >/dev/null 2>&1; then
     echo "[telecom] Starting Prometheus..."
-    /usr/bin/prometheus \
+    /usr/local/bin/prometheus \
         --config.file=/etc/prometheus/prometheus.yml \
         --storage.tsdb.path=/var/lib/prometheus \
         --web.listen-address=0.0.0.0:9090 &

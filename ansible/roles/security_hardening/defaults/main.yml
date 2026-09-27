@@ -1,0 +1,30 @@
+---
+hardening_admin_user: ansibleadmin
+
+# Firewall (per-group values live in inventory/group_vars)
+firewall_common_rules: []
+firewall_role_rules: []
+
+# Fail2ban
+fail2ban_bantime: 10m
+fail2ban_findtime: 10m
+fail2ban_maxretry: 5
+fail2ban_ignoreip:
+  - 172.30.0.50   # never ban the Ansible controller
+
+# Expected kernel network parameters (applied by docker-compose 'sysctls', verified here)
+hardening_sysctls:
+  net.ipv4.conf.all.accept_redirects: 0
+  net.ipv4.conf.default.accept_redirects: 0
+  net.ipv4.conf.all.send_redirects: 0
+  net.ipv4.conf.all.accept_source_route: 0
+  net.ipv4.conf.all.rp_filter: 1
+  net.ipv4.conf.all.log_martians: 1
+  net.ipv4.icmp_echo_ignore_broadcasts: 1
+  net.ipv4.tcp_syncookies: 1
+
+# Password policy (applies to any local account with a password)
+password_min_length: 12
+password_max_days: 90
+password_min_days: 1
+password_warn_age: 14

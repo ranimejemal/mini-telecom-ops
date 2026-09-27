@@ -1,0 +1,14 @@
+---
+- name: Collect security status
+  ansible.builtin.shell:
+    cmd: |
+      echo "== Listening ports =="; ss -tlnH | awk '{print $4}' | sort -u
+      echo "== UFW =="; ufw status | grep -v '^$'
+      echo "== Fail2ban sshd jail =="; fail2ban-client status sshd | grep -E 'Currently|Total'
+      echo "== Effective SSH settings =="; sshd -T | grep -E '^(permitrootlogin|passwordauthentication|maxauthtries|allowusers) '
+  register: security_report
+  changed_when: false
+
+- name: Security status
+  ansible.builtin.debug:
+    msg: "{{ security_report.stdout_lines }}"

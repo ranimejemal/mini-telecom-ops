@@ -10,3 +10,4 @@ id_*
 Thumbs.db
 ansible/vault/secrets.yml
 monitoring/prometheus-data/
+backup-*.sql

@@ -1,0 +1,62 @@
+---
+- name: Create Ansible administration user
+  ansible.builtin.user:
+    name: "{{ hardening_admin_user }}"
+    shell: /bin/bash
+    groups: sudo
+    append: true
+    create_home: true
+    state: present
+
+- name: Allow administration user passwordless sudo
+  ansible.builtin.copy:
+    dest: "/etc/sudoers.d/{{ hardening_admin_user }}"
+    content: "{{ hardening_admin_user }} ALL=(ALL) NOPASSWD:ALL\n"
+    owner: root
+    group: root
+    mode: '0440'
+    validate: visudo -cf %s
+
+- name: Install Ansible controller SSH public key
+  ansible.posix.authorized_key:
+    user: "{{ hardening_admin_user }}"
+    state: present
+    key: "{{ lookup('file', '/root/.ssh/id_ed25519.pub') }}"
+
+- name: Deploy SSH hardening drop-in (same file as baked into the images)
+  ansible.builtin.copy:
+    src: /docker/common/sshd_hardening.conf
+    dest: /etc/ssh/sshd_config.d/00-hardening.conf
+    owner: root
+    group: root
+    mode: '0644'
+  notify: Reload SSH
+
+- name: Disable root SSH login
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PermitRootLogin\s+'
+    line: 'PermitRootLogin no'
+    create: false
+  notify: Reload SSH
+
+- name: Disable SSH password authentication
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PasswordAuthentication\s+'
+    line: 'PasswordAuthentication no'
+    create: false
+  notify: Reload SSH
+
+- name: Ensure SSH public key authentication is enabled
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PubkeyAuthentication\s+'
+    line: 'PubkeyAuthentication yes'
+    create: false
+  notify: Reload SSH
+
+- name: Validate SSH configuration
+  ansible.builtin.command:
+    cmd: sshd -t
+  changed_when: false

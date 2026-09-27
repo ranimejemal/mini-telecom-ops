@@ -1,0 +1,20 @@
+---
+# Inside containers /proc/sys is read-only: the values are applied by
+# docker-compose.yml ('sysctls') and verified here as a compliance check.
+- name: Read kernel network parameters
+  ansible.builtin.command:
+    cmd: "sysctl -n {{ item.key }}"
+  loop: "{{ hardening_sysctls | dict2items }}"
+  loop_control:
+    label: "{{ item.key }}"
+  register: sysctl_values
+  changed_when: false
+
+- name: Assert kernel network parameters are hardened
+  ansible.builtin.assert:
+    that: (item.stdout | trim) == (item.item.value | string)
+    fail_msg: "{{ item.item.key }} = {{ item.stdout }} (expected {{ item.item.value }})"
+    quiet: true
+  loop: "{{ sysctl_values.results }}"
+  loop_control:
+    label: "{{ item.item.key }}"

@@ -1,0 +1,38 @@
+---
+- name: Ensure rsyslog is running (writes SSH events to /var/log/auth.log)
+  ansible.builtin.shell:
+    cmd: pgrep -x rsyslogd || { rm -f /run/rsyslogd.pid; rsyslogd; echo started; }
+  register: rsyslog_start
+  changed_when: "'started' in rsyslog_start.stdout"
+
+- name: Ensure the SSH auth log exists
+  ansible.builtin.file:
+    path: /var/log/auth.log
+    state: touch
+    owner: syslog
+    group: adm
+    mode: '0640'
+    access_time: preserve
+    modification_time: preserve
+
+- name: Configure Fail2ban SSH jail
+  ansible.builtin.template:
+    src: jail.local.j2
+    dest: /etc/fail2ban/jail.local
+    owner: root
+    group: root
+    mode: '0644'
+  notify: Reload Fail2ban
+
+- name: Check whether Fail2ban is running
+  ansible.builtin.command:
+    cmd: fail2ban-client ping
+  register: fail2ban_ping
+  changed_when: false
+  failed_when: false
+
+- name: Start Fail2ban
+  ansible.builtin.shell:
+    cmd: mkdir -p /run/fail2ban && rm -f /run/fail2ban/fail2ban.sock && fail2ban-client -x start
+  when: fail2ban_ping.rc != 0
+  changed_when: true
