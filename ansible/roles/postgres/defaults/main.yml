@@ -1,0 +1,4 @@
+---
+postgres_database: telecom_ops
+postgres_user: telecom_app
+postgres_port: 5432

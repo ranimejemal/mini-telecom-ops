@@ -1,0 +1,18 @@
+---
+- name: Validate Prometheus configuration
+  ansible.builtin.command:
+    cmd: promtool check config /etc/prometheus/prometheus.yml
+  changed_when: false
+
+- name: Check Prometheus process
+  ansible.builtin.command:
+    cmd: pgrep -x prometheus
+  register: prometheus_process
+  changed_when: false
+  failed_when: false
+
+- name: Reload Prometheus configuration
+  ansible.builtin.shell:
+    cmd: kill -HUP "$(pgrep -xo prometheus)"
+  when: prometheus_process.rc == 0
+  changed_when: true

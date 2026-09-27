@@ -1,0 +1,6 @@
+---
+- name: Restart Prometheus
+  ansible.builtin.shell:
+    cmd: |
+      kill -HUP "$(pgrep -xo prometheus)"
+  changed_when: true

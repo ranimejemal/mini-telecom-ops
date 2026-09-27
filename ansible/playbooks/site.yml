@@ -1,0 +1,32 @@
+---
+- name: Configure Telecom Infrastructure
+  hosts: telecom
+  become: true
+
+  roles:
+    - role: common
+    - role: node_exporter
+
+- name: Configure Web Server
+  hosts: web
+  become: true
+
+  roles:
+    - role: nginx
+
+- name: Configure Database Server
+  hosts: database
+  become: true
+
+  vars_files:
+    - /ansible/vault/secrets.yml
+
+  roles:
+    - role: postgres
+
+- name: Configure Monitoring Server
+  hosts: monitoring
+  become: true
+
+  roles:
+    - role: monitoring

@@ -1,0 +1,6 @@
+---
+- name: Configure Common Server Baseline
+  hosts: telecom
+  become: true
+  roles:
+    - role: common

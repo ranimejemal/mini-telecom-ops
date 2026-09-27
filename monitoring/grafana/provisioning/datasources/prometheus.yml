@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus-Telecom
+    uid: prometheus-telecom
+    type: prometheus
+    access: proxy
+    url: http://telecom-monitoring01:9090
+    isDefault: false
+    editable: false
+    jsonData:
+      timeInterval: 15s

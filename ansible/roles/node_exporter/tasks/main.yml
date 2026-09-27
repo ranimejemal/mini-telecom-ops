@@ -1,0 +1,18 @@
+---
+- name: Install Node Exporter
+  ansible.builtin.apt:
+    name: prometheus-node-exporter
+    state: present
+    update_cache: true
+
+- name: Check Node Exporter
+  ansible.builtin.command:
+    cmd: pgrep -x prometheus-node-exporter
+  register: node_exporter_process
+  changed_when: false
+  failed_when: false
+
+- name: Report Node Exporter status
+  ansible.builtin.debug:
+    msg: "Node Exporter is running on {{ inventory_hostname }}"
+  when: node_exporter_process.rc == 0

@@ -1,0 +1,7 @@
+---
+- name: Configure Node Exporter
+  hosts: web:database
+  become: true
+
+  roles:
+    - role: node_exporter

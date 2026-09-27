@@ -1,0 +1,6 @@
+---
+- name: Security Hardening Baseline
+  hosts: telecom
+  become: true
+  roles:
+    - role: security_hardening

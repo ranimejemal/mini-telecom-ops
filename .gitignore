@@ -1,0 +1,12 @@
+# Secrets - never commit
+docker/ansible/ssh/
+*.pem
+*.key
+id_*
+.env
+
+# OS / editor
+.vscode/
+Thumbs.db
+ansible/vault/secrets.yml
+monitoring/prometheus-data/

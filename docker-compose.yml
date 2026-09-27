@@ -1,0 +1,126 @@
+services:
+
+  web01:
+    build:
+      context: ./docker/web
+    container_name: telecom-web01
+    hostname: web01
+    ports:
+      - "8080:80"
+      - "2221:22"
+    volumes:
+      - web_data:/var/www/html
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.10
+    restart: unless-stopped
+
+  db01:
+    build:
+      context: ./docker/db
+    container_name: telecom-db01
+    hostname: db01
+    ports:
+      - "2222:22"
+    volumes:
+      - db_data:/var/lib/postgresql
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.20
+    restart: unless-stopped
+
+  monitoring01:
+    build:
+      context: ./docker/monitoring
+    container_name: telecom-monitoring01
+    hostname: monitoring01
+    ports:
+      - "2223:22"
+      - "9090:9090"
+    volumes:
+      - monitoring_data:/opt/monitoring
+      - prometheus_data:/var/lib/prometheus
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.30
+    restart: unless-stopped
+
+  gitea:
+    image: gitea/gitea:latest
+    container_name: telecom-gitea
+    hostname: gitea
+    ports:
+      - "3000:3000"
+      - "2224:22"
+    volumes:
+      - gitea_data:/data
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.40
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: telecom-grafana
+    hostname: grafana
+    ports:
+      - "3001:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/etc/grafana/dashboards:ro
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.60
+    restart: unless-stopped
+
+  ansible:
+    build:
+      context: .
+      dockerfile: ./docker/ansible/Dockerfile
+    container_name: telecom-ansible
+    hostname: ansible
+    working_dir: /ansible
+    volumes:
+      - ./ansible:/ansible
+      - ./docker:/docker
+      - ./monitoring:/monitoring
+      - ./docker/ansible/ssh:/ssh:ro
+    networks:
+      telecom-net:
+        ipv4_address: 172.30.0.50
+    restart: unless-stopped
+
+
+volumes:
+
+  web_data:
+    name: telecom_web_data
+
+  db_data:
+    name: telecom_db_data
+
+  monitoring_data:
+    name: telecom_monitoring_data
+
+  gitea_data:
+    name: telecom_gitea_data
+
+  prometheus_data:
+    name: telecom_prometheus_data
+    external: true
+
+  grafana_data:
+    name: telecom_grafana_data
+
+
+networks:
+
+  telecom-net:
+    name: telecom-net
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24
+          gateway: 172.30.0.1

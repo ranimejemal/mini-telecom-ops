@@ -1,0 +1,63 @@
+---
+- name: Create Ansible administration user
+  ansible.builtin.user:
+    name: ansibleadmin
+    shell: /bin/bash
+    groups: sudo
+    append: true
+    create_home: true
+    state: present
+
+- name: Allow ansibleadmin passwordless sudo
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/ansibleadmin
+    content: "ansibleadmin ALL=(ALL) NOPASSWD:ALL
+"
+    owner: root
+    group: root
+    mode: '0440'
+
+- name: Validate sudoers configuration
+  ansible.builtin.command:
+    cmd: visudo -cf /etc/sudoers.d/ansibleadmin
+  changed_when: false
+
+- name: Install Ansible controller SSH public key
+  ansible.posix.authorized_key:
+    user: ansibleadmin
+    state: present
+    key: "{{ lookup('file', '/root/.ssh/id_ed25519.pub') }}"
+
+
+- name: Disable root SSH login
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PermitRootLogin\s+'
+    line: 'PermitRootLogin no'
+    create: false
+    backup: true
+
+- name: Disable SSH password authentication
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PasswordAuthentication\s+'
+    line: 'PasswordAuthentication no'
+    create: false
+    backup: true
+
+- name: Ensure SSH public key authentication is enabled
+  ansible.builtin.lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^#?PubkeyAuthentication\s+'
+    line: 'PubkeyAuthentication yes'
+    create: false
+
+- name: Validate SSH configuration
+  ansible.builtin.command:
+    cmd: sshd -t
+  changed_when: false
+
+- name: Reload SSH service
+  ansible.builtin.service:
+    name: ssh
+    state: reloaded

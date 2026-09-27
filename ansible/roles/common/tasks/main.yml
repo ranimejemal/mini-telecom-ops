@@ -1,0 +1,22 @@
+---
+- name: Update apt cache
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+
+- name: Install common administration packages
+  ansible.builtin.apt:
+    name:
+      - curl
+      - wget
+      - vim
+      - htop
+      - net-tools
+      - iproute2
+      - python3
+      - sudo
+    state: present
+
+- name: Set timezone to Africa/Tunis
+  community.general.timezone:
+    name: Africa/Tunis

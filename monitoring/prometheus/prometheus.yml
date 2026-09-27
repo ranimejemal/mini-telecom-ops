@@ -1,0 +1,30 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+
+  - job_name: "prometheus"
+    static_configs:
+      - targets:
+          - "localhost:9090"
+
+  - job_name: "telecom-servers"
+    static_configs:
+      - targets:
+          - "172.30.0.10:9100"
+        labels:
+          server: "web01"
+          role: "web"
+
+      - targets:
+          - "172.30.0.20:9100"
+        labels:
+          server: "db01"
+          role: "database"
+
+      - targets:
+          - "172.30.0.30:9100"
+        labels:
+          server: "monitoring01"
+          role: "monitoring"
