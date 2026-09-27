@@ -41,3 +41,34 @@ jobs:
           trivy config --quiet --severity HIGH,CRITICAL --exit-code 0 .
           echo "--- Blocking gate (CRITICAL) ---"
           trivy config --quiet --severity CRITICAL --exit-code 1 .
+
+  deploy:
+    name: Deploy with Ansible
+    needs: gates
+    # Only a push to main is deployed; branches and pull requests stop after the gates
+    if: gitea.event_name == 'push' && gitea.ref == 'refs/heads/main'
+    runs-on: telecom-ci
+    steps:
+      - name: Checkout from self-hosted Gitea
+        env:
+          TOKEN: ${{ gitea.token }}
+        run: |
+          git init -q .
+          git remote add origin "http://ci:${TOKEN}@telecom-gitea:3000/${{ gitea.repository }}.git"
+          git fetch -q --depth 1 origin "${{ gitea.sha }}"
+          git checkout -q FETCH_HEAD
+          git log -1 --format='Deploying %h by %an: %s'
+
+      - name: Deploy from an isolated container with the CI identity (172.30.0.55)
+        env:
+          # Base64 on one line: Gitea masks secrets line by line, a multi-line key would leak into logs
+          SSH_KEY_B64: ${{ secrets.ANSIBLE_SSH_KEY_B64 }}
+          VAULT_PASSWORD: ${{ secrets.ANSIBLE_VAULT_PASSWORD }}
+        run: |
+          # Fixed name = only one deployment at a time; --rm = nothing left behind
+          tar -c --exclude=.git . | docker run --rm -i \
+            --name telecom-deploy \
+            --network telecom-net --ip 172.30.0.55 \
+            -e SSH_KEY_B64 -e VAULT_PASSWORD \
+            telecom-ci:latest \
+            bash -c 'mkdir -p /deploy && cd /deploy && tar -x && bash ci/deploy.sh'

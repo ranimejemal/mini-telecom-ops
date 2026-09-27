@@ -2,5 +2,11 @@
 # Inbound rules on every telecom server (everything else is denied)
 firewall_common_rules:
   - { port: "22", from: "172.30.0.50", comment: "SSH from Ansible controller" }
+  - { port: "22", from: "172.30.0.55", comment: "SSH from CI deploy jobs" }
   - { port: "22", from: "172.30.0.1", comment: "SSH from Docker host (admin)" }
   - { port: "9100", from: "172.30.0.30", comment: "Node Exporter scraped by Prometheus" }
+
+# Never ban the automation sources
+fail2ban_ignoreip:
+  - 172.30.0.50   # Ansible controller
+  - 172.30.0.55   # CI deploy jobs

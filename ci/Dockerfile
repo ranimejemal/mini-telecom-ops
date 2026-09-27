@@ -1,6 +1,7 @@
 # Telecom CI toolbox: every quality/security gate runs from this local image,
 # so pipelines need no third-party actions from the Internet.
 FROM aquasec/trivy:0.74.0 AS trivy
+FROM docker:27-cli AS dockercli
 
 FROM ubuntu:24.04
 
@@ -29,6 +30,8 @@ RUN curl -sSfL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEA
       | tar -xz -C /usr/local/bin --strip-components=1 "alertmanager-${ALERTMANAGER_VERSION}.linux-amd64/amtool"
 
 COPY --from=trivy /usr/local/bin/trivy /usr/local/bin/trivy
+# Docker CLI: the deploy job starts a short-lived deploy container with a fixed IP
+COPY --from=dockercli /usr/local/bin/docker /usr/local/bin/docker
 
 RUN yamllint --version && ansible-lint --version && gitleaks version && \
-    promtool --version && amtool --version && trivy --version
+    promtool --version && amtool --version && trivy --version && docker --version
