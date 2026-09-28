@@ -19,8 +19,8 @@ services:
     container_name: telecom-web01
     hostname: web01
     ports:
-      - "8080:80"
-      - "2221:22"
+      - "127.0.0.1:8080:80"
+      - "127.0.0.1:2221:22"
     volumes:
       - web_data:/var/www/html
     cap_add:
@@ -38,7 +38,7 @@ services:
     container_name: telecom-db01
     hostname: db01
     ports:
-      - "2222:22"
+      - "127.0.0.1:2222:22"
     volumes:
       - db_data:/var/lib/postgresql
     cap_add:
@@ -56,8 +56,8 @@ services:
     container_name: telecom-monitoring01
     hostname: monitoring01
     ports:
-      - "2223:22"
-      - "9090:9090"
+      - "127.0.0.1:2223:22"
+      - "127.0.0.1:9090:9090"
     volumes:
       - monitoring_data:/opt/monitoring
       - prometheus_data:/var/lib/prometheus
@@ -76,8 +76,8 @@ services:
     container_name: telecom-gitea
     hostname: gitea
     ports:
-      - "3000:3000"
-      - "2224:22"
+      - "127.0.0.1:3000:3000"
+      - "127.0.0.1:2224:22"
     volumes:
       - gitea_data:/data
     networks:
@@ -90,7 +90,7 @@ services:
     container_name: telecom-grafana
     hostname: grafana
     ports:
-      - "3001:3000"
+      - "127.0.0.1:3001:3000"
     volumes:
       - grafana_data:/var/lib/grafana
       - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
@@ -108,7 +108,7 @@ services:
       - "--config.file=/etc/alertmanager/alertmanager.yml"
       - "--storage.path=/alertmanager"
     ports:
-      - "9093:9093"
+      - "127.0.0.1:9093:9093"
     volumes:
       - ./monitoring/alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
       - alertmanager_data:/alertmanager
