@@ -20,3 +20,8 @@ if [ -f /etc/fail2ban/jail.local ] && command -v fail2ban-client >/dev/null 2>&1
     rm -f /run/fail2ban/fail2ban.sock
     fail2ban-client -x start >/dev/null 2>&1 || echo "[boot] WARNING: Fail2ban failed to start"
 fi
+
+# Wazuh SOC agent (only once Ansible installed it)
+if [ -x /var/ossec/bin/wazuh-control ]; then
+    /var/ossec/bin/wazuh-control start >/dev/null 2>&1 || echo "[boot] WARNING: Wazuh agent failed to start"
+fi

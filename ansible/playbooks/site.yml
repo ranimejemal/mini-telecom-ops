@@ -7,6 +7,7 @@
     - role: common
     - role: security_hardening
     - role: node_exporter
+    - role: wazuh_agent
 
 - name: Configure Web Server
   hosts: web

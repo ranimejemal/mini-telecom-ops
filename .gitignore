@@ -10,3 +10,8 @@ id_*
 Thumbs.db
 monitoring/prometheus-data/
 backup-*.sql
+
+# Wazuh SOC: generated keys, certificates, credentials
+soc/certs/
+soc/secrets.env
+soc/config/wazuh_indexer/internal_users.yml

@@ -1,0 +1,45 @@
+---
+- name: Install Wazuh repository key
+  ansible.builtin.get_url:
+    url: "{{ wazuh_repo_key_url }}"
+    dest: /usr/share/keyrings/wazuh.asc
+    mode: '0644'
+
+- name: Add Wazuh repository
+  ansible.builtin.apt_repository:
+    repo: "{{ wazuh_repo }}"
+    filename: wazuh
+    state: present
+
+- name: Install Wazuh agent (same version as the manager)
+  ansible.builtin.apt:
+    name: "wazuh-agent={{ wazuh_agent_version }}"
+    state: present
+    update_cache: true
+
+- name: Pin the agent version (agent must never be newer than the manager)
+  ansible.builtin.dpkg_selections:
+    name: wazuh-agent
+    selection: hold
+
+- name: Configure Wazuh agent
+  ansible.builtin.template:
+    src: ossec.conf.j2
+    dest: /var/ossec/etc/ossec.conf
+    owner: root
+    group: wazuh
+    mode: '0640'
+  notify: Restart Wazuh agent
+
+- name: Check whether the Wazuh agent is running
+  ansible.builtin.command:
+    cmd: /var/ossec/bin/wazuh-control status
+  register: wazuh_agent_status
+  changed_when: false
+  failed_when: false
+
+- name: Start Wazuh agent (no systemd in containers)
+  ansible.builtin.command:
+    cmd: /var/ossec/bin/wazuh-control start
+  when: "'wazuh-agentd is running' not in wazuh_agent_status.stdout"
+  changed_when: true

@@ -1,0 +1,5 @@
+---
+- name: Restart Wazuh agent
+  ansible.builtin.command:
+    cmd: /var/ossec/bin/wazuh-control restart
+  changed_when: true

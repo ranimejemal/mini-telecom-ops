@@ -1,0 +1,7 @@
+---
+- name: Deploy Wazuh SOC Agents
+  hosts: telecom
+  become: true
+
+  roles:
+    - role: wazuh_agent

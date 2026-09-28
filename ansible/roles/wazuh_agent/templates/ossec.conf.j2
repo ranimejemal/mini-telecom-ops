@@ -1,0 +1,103 @@
+<!-- {{ ansible_managed }} -->
+<ossec_config>
+  <client>
+    <server>
+      <address>{{ wazuh_manager_address }}</address>
+      <port>1514</port>
+      <protocol>tcp</protocol>
+    </server>
+    <config-profile>ubuntu, ubuntu24, ubuntu24.04</config-profile>
+    <notify_time>10</notify_time>
+    <time-reconnect>60</time-reconnect>
+    <auto_restart>yes</auto_restart>
+    <crypto_method>aes</crypto_method>
+    <enrollment>
+      <enabled>yes</enabled>
+      <agent_name>{{ inventory_hostname }}</agent_name>
+      <groups>default</groups>
+    </enrollment>
+  </client>
+
+  <client_buffer>
+    <disabled>no</disabled>
+    <queue_size>5000</queue_size>
+    <events_per_second>500</events_per_second>
+  </client_buffer>
+
+  <!-- Rootkit and anomaly detection -->
+  <rootcheck>
+    <disabled>no</disabled>
+    <check_files>yes</check_files>
+    <check_trojans>yes</check_trojans>
+    <check_dev>yes</check_dev>
+    <check_sys>yes</check_sys>
+    <check_pids>yes</check_pids>
+    <check_ports>yes</check_ports>
+    <check_if>yes</check_if>
+    <frequency>43200</frequency>
+    <rootkit_files>etc/shared/rootkit_files.txt</rootkit_files>
+    <rootkit_trojans>etc/shared/rootkit_trojans.txt</rootkit_trojans>
+    <skip_nfs>yes</skip_nfs>
+  </rootcheck>
+
+  <!-- Software/OS inventory: feeds vulnerability detection on the manager -->
+  <wodle name="syscollector">
+    <disabled>no</disabled>
+    <interval>1h</interval>
+    <scan_on_start>yes</scan_on_start>
+    <hardware>yes</hardware>
+    <os>yes</os>
+    <network>yes</network>
+    <packages>yes</packages>
+    <ports all="no">yes</ports>
+    <processes>yes</processes>
+  </wodle>
+
+  <!-- CIS benchmark / hardening assessment (measures Phase 2) -->
+  <sca>
+    <enabled>yes</enabled>
+    <scan_on_start>yes</scan_on_start>
+    <interval>12h</interval>
+    <skip_nfs>yes</skip_nfs>
+  </sca>
+
+  <!-- File integrity monitoring: real-time on security-critical files -->
+  <syscheck>
+    <disabled>no</disabled>
+    <frequency>43200</frequency>
+    <scan_on_start>yes</scan_on_start>
+    <directories realtime="yes" check_all="yes" report_changes="yes">/etc/ssh,/etc/sudoers.d,/etc/passwd,/etc/group</directories>
+    <directories realtime="yes" check_all="yes">/etc/shadow</directories>
+    <directories check_all="yes">/usr/bin,/usr/sbin</directories>
+{% if 'web' in group_names %}
+    <directories realtime="yes" check_all="yes" report_changes="yes">/var/www/html</directories>
+{% endif %}
+    <skip_nfs>yes</skip_nfs>
+  </syscheck>
+
+  <!-- Logs: SSH/auth (brute force), system, package changes -->
+  <localfile>
+    <log_format>syslog</log_format>
+    <location>/var/log/auth.log</location>
+  </localfile>
+  <localfile>
+    <log_format>syslog</log_format>
+    <location>/var/log/syslog</location>
+  </localfile>
+  <localfile>
+    <log_format>syslog</log_format>
+    <location>/var/log/dpkg.log</location>
+  </localfile>
+  <localfile>
+    <log_format>syslog</log_format>
+    <location>/var/log/sudo.log</location>
+  </localfile>
+
+  <active-response>
+    <disabled>yes</disabled>
+  </active-response>
+
+  <logging>
+    <log_format>plain</log_format>
+  </logging>
+</ossec_config>
