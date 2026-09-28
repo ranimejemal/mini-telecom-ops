@@ -1,0 +1,44 @@
+{
+ "type": "FeatureCollection",
+ "name": "cabinets",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1822464,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "CAB01",
+    "type": "FDH street cabinet",
+    "dps": 33,
+    "l1_splitters_1x4": 9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1844254,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "CAB02",
+    "type": "FDH street cabinet",
+    "dps": 51,
+    "l1_splitters_1x4": 13
+   }
+  }
+ ]
+}

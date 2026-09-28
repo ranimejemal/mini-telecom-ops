@@ -1,0 +1,3598 @@
+{
+ "type": "FeatureCollection",
+ "name": "fiber_drops",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1802471,
+      36.8906886
+     ],
+     [
+      10.1802471,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP001-B001",
+    "from": "DP001",
+    "to": "B001",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1802471,
+      36.8906886
+     ],
+     [
+      10.1802471,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP002-B001",
+    "from": "DP002",
+    "to": "B001",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.180921,
+      36.8919642
+     ],
+     [
+      10.180921,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP003-B010",
+    "from": "DP003",
+    "to": "B010",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806964,
+      36.8924314
+     ],
+     [
+      10.1806964,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP004-B015",
+    "from": "DP004",
+    "to": "B015",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806964,
+      36.8924314
+     ],
+     [
+      10.1806964,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP005-B015",
+    "from": "DP005",
+    "to": "B015",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804717,
+      36.8941741
+     ],
+     [
+      10.1804717,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP006-B024",
+    "from": "DP006",
+    "to": "B024",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804717,
+      36.8941741
+     ],
+     [
+      10.1804717,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP007-B024",
+    "from": "DP007",
+    "to": "B024",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8906886
+     ],
+     [
+      10.1826507,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP008-B049",
+    "from": "DP008",
+    "to": "B049",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8906886
+     ],
+     [
+      10.1826507,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP009-B049",
+    "from": "DP009",
+    "to": "B049",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8928356
+     ],
+     [
+      10.1826507,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP010-B059",
+    "from": "DP010",
+    "to": "B059",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8928356
+     ],
+     [
+      10.1826507,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP011-B059",
+    "from": "DP011",
+    "to": "B059",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1831,
+      36.8928356
+     ],
+     [
+      10.1831,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP012-B061",
+    "from": "DP012",
+    "to": "B061",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8933027
+     ],
+     [
+      10.1824261,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP013-B062",
+    "from": "DP013",
+    "to": "B062",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8933027
+     ],
+     [
+      10.1824261,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP014-B062",
+    "from": "DP014",
+    "to": "B062",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.893707
+     ],
+     [
+      10.1828754,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP015-B064",
+    "from": "DP015",
+    "to": "B064",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.893707
+     ],
+     [
+      10.1828754,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP016-B064",
+    "from": "DP016",
+    "to": "B064",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8945783
+     ],
+     [
+      10.1824261,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP017-B068",
+    "from": "DP017",
+    "to": "B068",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8945783
+     ],
+     [
+      10.1824261,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP018-B068",
+    "from": "DP018",
+    "to": "B068",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8910929
+     ],
+     [
+      10.1839649,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP019-B076",
+    "from": "DP019",
+    "to": "B076",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8910929
+     ],
+     [
+      10.1839649,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP020-B076",
+    "from": "DP020",
+    "to": "B076",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1841895,
+      36.8906886
+     ],
+     [
+      10.1841895,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP021-B077",
+    "from": "DP021",
+    "to": "B077",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8924314
+     ],
+     [
+      10.1835156,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP022-B084",
+    "from": "DP022",
+    "to": "B084",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8924314
+     ],
+     [
+      10.1835156,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP023-B084",
+    "from": "DP023",
+    "to": "B084",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.893707
+     ],
+     [
+      10.1837402,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP024-B089",
+    "from": "DP024",
+    "to": "B089",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.893707
+     ],
+     [
+      10.1837402,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP025-B089",
+    "from": "DP025",
+    "to": "B089",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8945783
+     ],
+     [
+      10.1835156,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP026-B091",
+    "from": "DP026",
+    "to": "B091",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8945783
+     ],
+     [
+      10.1835156,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP027-B091",
+    "from": "DP027",
+    "to": "B091",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.8945783
+     ],
+     [
+      10.1837402,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP028-B093",
+    "from": "DP028",
+    "to": "B093",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.8945783
+     ],
+     [
+      10.1837402,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP029-B093",
+    "from": "DP029",
+    "to": "B093",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8945783
+     ],
+     [
+      10.1839649,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP030-B095",
+    "from": "DP030",
+    "to": "B095",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8945783
+     ],
+     [
+      10.1839649,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP031-B095",
+    "from": "DP031",
+    "to": "B095",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.89156
+     ],
+     [
+      10.1848297,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP032-B101",
+    "from": "DP032",
+    "to": "B101",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8919642
+     ],
+     [
+      10.1848297,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP033-B102",
+    "from": "DP033",
+    "to": "B102",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8919642
+     ],
+     [
+      10.1848297,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP034-B102",
+    "from": "DP034",
+    "to": "B102",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1846051,
+      36.8928356
+     ],
+     [
+      10.1846051,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP035-B107",
+    "from": "DP035",
+    "to": "B107",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1846051,
+      36.8928356
+     ],
+     [
+      10.1846051,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP036-B107",
+    "from": "DP036",
+    "to": "B107",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8928356
+     ],
+     [
+      10.1850544,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP037-B110",
+    "from": "DP037",
+    "to": "B110",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8945783
+     ],
+     [
+      10.1850544,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP038-B118",
+    "from": "DP038",
+    "to": "B118",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8945783
+     ],
+     [
+      10.1850544,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP039-B118",
+    "from": "DP039",
+    "to": "B118",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1856946,
+      36.8906886
+     ],
+     [
+      10.1856946,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP040-B119",
+    "from": "DP040",
+    "to": "B119",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1856946,
+      36.8906886
+     ],
+     [
+      10.1856946,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP041-B119",
+    "from": "DP041",
+    "to": "B119",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8906886
+     ],
+     [
+      10.1859192,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP042-B120",
+    "from": "DP042",
+    "to": "B120",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8906886
+     ],
+     [
+      10.1859192,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP043-B120",
+    "from": "DP043",
+    "to": "B120",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8910929
+     ],
+     [
+      10.1859192,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP044-B121",
+    "from": "DP044",
+    "to": "B121",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8910929
+     ],
+     [
+      10.1859192,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP045-B121",
+    "from": "DP045",
+    "to": "B121",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8919642
+     ],
+     [
+      10.1859192,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP046-B124",
+    "from": "DP046",
+    "to": "B124",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8919642
+     ],
+     [
+      10.1859192,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP047-B124",
+    "from": "DP047",
+    "to": "B124",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.89156
+     ],
+     [
+      10.1863685,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP048-B126",
+    "from": "DP048",
+    "to": "B126",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.89156
+     ],
+     [
+      10.1863685,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP049-B126",
+    "from": "DP049",
+    "to": "B126",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.8919642
+     ],
+     [
+      10.1863685,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP050-B127",
+    "from": "DP050",
+    "to": "B127",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.8919642
+     ],
+     [
+      10.1863685,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP051-B127",
+    "from": "DP051",
+    "to": "B127",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.8928356
+     ],
+     [
+      10.1863685,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP052-B132",
+    "from": "DP052",
+    "to": "B132",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.8928356
+     ],
+     [
+      10.1863685,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP053-B132",
+    "from": "DP053",
+    "to": "B132",
+    "premises": 4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8945783
+     ],
+     [
+      10.1861439,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP054-B137",
+    "from": "DP054",
+    "to": "B137",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8945783
+     ],
+     [
+      10.1861439,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP055-B137",
+    "from": "DP055",
+    "to": "B137",
+    "premises": 8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805466,
+      36.8905539
+     ],
+     [
+      10.1802471,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP056-B002",
+    "from": "DP056",
+    "to": "B002",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805466,
+      36.8905539
+     ],
+     [
+      10.1804717,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP056-B003",
+    "from": "DP056",
+    "to": "B003",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805466,
+      36.8905539
+     ],
+     [
+      10.180921,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP056-B004",
+    "from": "DP056",
+    "to": "B004",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8914253
+     ],
+     [
+      10.1802471,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP057-B005",
+    "from": "DP057",
+    "to": "B005",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8914253
+     ],
+     [
+      10.1804717,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP057-B006",
+    "from": "DP057",
+    "to": "B006",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8914253
+     ],
+     [
+      10.1804717,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP057-B007",
+    "from": "DP057",
+    "to": "B007",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8914253
+     ],
+     [
+      10.1806964,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP057-B008",
+    "from": "DP057",
+    "to": "B008",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8914253
+     ],
+     [
+      10.1806964,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP057-B009",
+    "from": "DP057",
+    "to": "B009",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.1802471,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B011",
+    "from": "DP058",
+    "to": "B011",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.1802471,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B012",
+    "from": "DP058",
+    "to": "B012",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.1804717,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B013",
+    "from": "DP058",
+    "to": "B013",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.1804717,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B014",
+    "from": "DP058",
+    "to": "B014",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.1806964,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B016",
+    "from": "DP058",
+    "to": "B016",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8922966
+     ],
+     [
+      10.180921,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP058-B017",
+    "from": "DP058",
+    "to": "B017",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1802471,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP059-B018",
+    "from": "DP059",
+    "to": "B018",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1802471,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP059-B019",
+    "from": "DP059",
+    "to": "B019",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1804717,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP059-B020",
+    "from": "DP059",
+    "to": "B020",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1804717,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP059-B021",
+    "from": "DP059",
+    "to": "B021",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1806964,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP059-B022",
+    "from": "DP059",
+    "to": "B022",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806215,
+      36.8940393
+     ],
+     [
+      10.1802471,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP060-B023",
+    "from": "DP060",
+    "to": "B023",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806215,
+      36.8940393
+     ],
+     [
+      10.1806964,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP060-B025",
+    "from": "DP060",
+    "to": "B025",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806215,
+      36.8940393
+     ],
+     [
+      10.180921,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP060-B026",
+    "from": "DP060",
+    "to": "B026",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1815612,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP061-B027",
+    "from": "DP061",
+    "to": "B027",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1815612,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP061-B028",
+    "from": "DP061",
+    "to": "B028",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1817859,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP061-B029",
+    "from": "DP061",
+    "to": "B029",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1820105,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP061-B030",
+    "from": "DP061",
+    "to": "B030",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8914253
+     ],
+     [
+      10.1813366,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP062-B031",
+    "from": "DP062",
+    "to": "B031",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8914253
+     ],
+     [
+      10.1817859,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP062-B032",
+    "from": "DP062",
+    "to": "B032",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8914253
+     ],
+     [
+      10.1817859,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP062-B033",
+    "from": "DP062",
+    "to": "B033",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8914253
+     ],
+     [
+      10.1820105,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP062-B034",
+    "from": "DP062",
+    "to": "B034",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8914253
+     ],
+     [
+      10.1820105,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP062-B035",
+    "from": "DP062",
+    "to": "B035",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181711,
+      36.8922966
+     ],
+     [
+      10.1813366,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP063-B036",
+    "from": "DP063",
+    "to": "B036",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181711,
+      36.8922966
+     ],
+     [
+      10.1817859,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP063-B037",
+    "from": "DP063",
+    "to": "B037",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181711,
+      36.8922966
+     ],
+     [
+      10.1820105,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP063-B038",
+    "from": "DP063",
+    "to": "B038",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.893168
+     ],
+     [
+      10.1813366,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP064-B039",
+    "from": "DP064",
+    "to": "B039",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.893168
+     ],
+     [
+      10.1815612,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP064-B040",
+    "from": "DP064",
+    "to": "B040",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.893168
+     ],
+     [
+      10.1817859,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP064-B041",
+    "from": "DP064",
+    "to": "B041",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.893168
+     ],
+     [
+      10.1817859,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP064-B042",
+    "from": "DP064",
+    "to": "B042",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.893168
+     ],
+     [
+      10.1820105,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP064-B043",
+    "from": "DP064",
+    "to": "B043",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1813366,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP065-B044",
+    "from": "DP065",
+    "to": "B044",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1813366,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP065-B045",
+    "from": "DP065",
+    "to": "B045",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1815612,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP065-B046",
+    "from": "DP065",
+    "to": "B046",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1815612,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP065-B047",
+    "from": "DP065",
+    "to": "B047",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1820105,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP065-B048",
+    "from": "DP065",
+    "to": "B048",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8905539
+     ],
+     [
+      10.1826507,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP066-B050",
+    "from": "DP066",
+    "to": "B050",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8905539
+     ],
+     [
+      10.1828754,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP066-B051",
+    "from": "DP066",
+    "to": "B051",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8905539
+     ],
+     [
+      10.1828754,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP066-B052",
+    "from": "DP066",
+    "to": "B052",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8905539
+     ],
+     [
+      10.1831,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP066-B053",
+    "from": "DP066",
+    "to": "B053",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1827069,
+      36.8914253
+     ],
+     [
+      10.1824261,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP067-B054",
+    "from": "DP067",
+    "to": "B054",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1827069,
+      36.8914253
+     ],
+     [
+      10.1824261,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP067-B055",
+    "from": "DP067",
+    "to": "B055",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1827069,
+      36.8914253
+     ],
+     [
+      10.1828754,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP067-B056",
+    "from": "DP067",
+    "to": "B056",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1827069,
+      36.8914253
+     ],
+     [
+      10.1831,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP067-B057",
+    "from": "DP067",
+    "to": "B057",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8922966
+     ],
+     [
+      10.1824261,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP068-B058",
+    "from": "DP068",
+    "to": "B058",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8922966
+     ],
+     [
+      10.1828754,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP068-B060",
+    "from": "DP068",
+    "to": "B060",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.893168
+     ],
+     [
+      10.1824261,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP069-B063",
+    "from": "DP069",
+    "to": "B063",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.893168
+     ],
+     [
+      10.1831,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP069-B065",
+    "from": "DP069",
+    "to": "B065",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.893168
+     ],
+     [
+      10.1831,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP069-B066",
+    "from": "DP069",
+    "to": "B066",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1824261,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B067",
+    "from": "DP070",
+    "to": "B067",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1826507,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B069",
+    "from": "DP070",
+    "to": "B069",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1826507,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B070",
+    "from": "DP070",
+    "to": "B070",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1828754,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B071",
+    "from": "DP070",
+    "to": "B071",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1831,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B072",
+    "from": "DP070",
+    "to": "B072",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828005,
+      36.8940393
+     ],
+     [
+      10.1831,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP070-B073",
+    "from": "DP070",
+    "to": "B073",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8905539
+     ],
+     [
+      10.1837402,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP071-B074",
+    "from": "DP071",
+    "to": "B074",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8905539
+     ],
+     [
+      10.1839649,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP071-B075",
+    "from": "DP071",
+    "to": "B075",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8905539
+     ],
+     [
+      10.1841895,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP071-B078",
+    "from": "DP071",
+    "to": "B078",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.1835156,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP072-B079",
+    "from": "DP072",
+    "to": "B079",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.1835156,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP072-B080",
+    "from": "DP072",
+    "to": "B080",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.1839649,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP072-B081",
+    "from": "DP072",
+    "to": "B081",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.1841895,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP072-B082",
+    "from": "DP072",
+    "to": "B082",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.1841895,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP072-B083",
+    "from": "DP072",
+    "to": "B083",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1836279,
+      36.8922966
+     ],
+     [
+      10.1835156,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP073-B085",
+    "from": "DP073",
+    "to": "B085",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1836279,
+      36.8922966
+     ],
+     [
+      10.1837402,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP073-B086",
+    "from": "DP073",
+    "to": "B086",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1838151,
+      36.893168
+     ],
+     [
+      10.1835156,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP074-B087",
+    "from": "DP074",
+    "to": "B087",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1838151,
+      36.893168
+     ],
+     [
+      10.1837402,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP074-B088",
+    "from": "DP074",
+    "to": "B088",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1838151,
+      36.893168
+     ],
+     [
+      10.1841895,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP074-B090",
+    "from": "DP074",
+    "to": "B090",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8940393
+     ],
+     [
+      10.1837402,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP075-B092",
+    "from": "DP075",
+    "to": "B092",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8940393
+     ],
+     [
+      10.1839649,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP075-B094",
+    "from": "DP075",
+    "to": "B094",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8940393
+     ],
+     [
+      10.1841895,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP075-B096",
+    "from": "DP075",
+    "to": "B096",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8905539
+     ],
+     [
+      10.1846051,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP076-B097",
+    "from": "DP076",
+    "to": "B097",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8905539
+     ],
+     [
+      10.1848297,
+      36.8911468
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP076-B098",
+    "from": "DP076",
+    "to": "B098",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8905539
+     ],
+     [
+      10.1850544,
+      36.8907425
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP076-B099",
+    "from": "DP076",
+    "to": "B099",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1849982,
+      36.8914253
+     ],
+     [
+      10.1846051,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP077-B100",
+    "from": "DP077",
+    "to": "B100",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1849982,
+      36.8914253
+     ],
+     [
+      10.1850544,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP077-B103",
+    "from": "DP077",
+    "to": "B103",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1849982,
+      36.8914253
+     ],
+     [
+      10.1850544,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP077-B104",
+    "from": "DP077",
+    "to": "B104",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1849982,
+      36.8914253
+     ],
+     [
+      10.185279,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP077-B105",
+    "from": "DP077",
+    "to": "B105",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8922966
+     ],
+     [
+      10.1846051,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP078-B106",
+    "from": "DP078",
+    "to": "B106",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8922966
+     ],
+     [
+      10.1848297,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP078-B108",
+    "from": "DP078",
+    "to": "B108",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8922966
+     ],
+     [
+      10.1850544,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP078-B109",
+    "from": "DP078",
+    "to": "B109",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.893168
+     ],
+     [
+      10.1846051,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP079-B111",
+    "from": "DP079",
+    "to": "B111",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.893168
+     ],
+     [
+      10.1848297,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP079-B112",
+    "from": "DP079",
+    "to": "B112",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.893168
+     ],
+     [
+      10.1848297,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP079-B113",
+    "from": "DP079",
+    "to": "B113",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.893168
+     ],
+     [
+      10.1850544,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP079-B114",
+    "from": "DP079",
+    "to": "B114",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.893168
+     ],
+     [
+      10.1850544,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP079-B115",
+    "from": "DP079",
+    "to": "B115",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1847174,
+      36.8940393
+     ],
+     [
+      10.1846051,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP080-B116",
+    "from": "DP080",
+    "to": "B116",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1847174,
+      36.8940393
+     ],
+     [
+      10.1848297,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP080-B117",
+    "from": "DP080",
+    "to": "B117",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1858443,
+      36.8914253
+     ],
+     [
+      10.1856946,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP081-B122",
+    "from": "DP081",
+    "to": "B122",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1858443,
+      36.8914253
+     ],
+     [
+      10.1856946,
+      36.8920181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP081-B123",
+    "from": "DP081",
+    "to": "B123",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1858443,
+      36.8914253
+     ],
+     [
+      10.1861439,
+      36.8916139
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP081-B125",
+    "from": "DP081",
+    "to": "B125",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8922966
+     ],
+     [
+      10.1859192,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP082-B128",
+    "from": "DP082",
+    "to": "B128",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8922966
+     ],
+     [
+      10.1861439,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP082-B129",
+    "from": "DP082",
+    "to": "B129",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8922966
+     ],
+     [
+      10.1861439,
+      36.8928895
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP082-B130",
+    "from": "DP082",
+    "to": "B130",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8922966
+     ],
+     [
+      10.1863685,
+      36.8924853
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP082-B131",
+    "from": "DP082",
+    "to": "B131",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859941,
+      36.893168
+     ],
+     [
+      10.1856946,
+      36.8933566
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP083-B133",
+    "from": "DP083",
+    "to": "B133",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859941,
+      36.893168
+     ],
+     [
+      10.1859192,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP083-B134",
+    "from": "DP083",
+    "to": "B134",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859941,
+      36.893168
+     ],
+     [
+      10.1863685,
+      36.8937609
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP083-B135",
+    "from": "DP083",
+    "to": "B135",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8940393
+     ],
+     [
+      10.1859192,
+      36.8946322
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP084-B136",
+    "from": "DP084",
+    "to": "B136",
+    "premises": 1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8940393
+     ],
+     [
+      10.1863685,
+      36.894228
+     ]
+    ]
+   },
+   "properties": {
+    "id": "DROP-DP084-B138",
+    "from": "DP084",
+    "to": "B138",
+    "premises": 1
+   }
+  }
+ ]
+}

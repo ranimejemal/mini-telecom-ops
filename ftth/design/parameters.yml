@@ -1,0 +1,57 @@
+---
+# FTTH design inputs - El Ghazela (Ariana, Tunisia) access network.
+# Change a value, re-run the tools, and the GIS, BOM and link budget follow.
+
+project:
+  name: "El Ghazela FTTH access network"
+  technology: "GPON (ITU-T G.984), XGS-PON ready (combo OLT ports)"
+  target_premises: 500
+
+site:
+  # Central office: OLT hosted in the El Ghazela technopark (approximate position)
+  central_office: {name: "CO-GHAZELA", lat: 36.8963, lon: 10.1873}
+  # South-west corner of the served residential area and block grid
+  area_origin: {lat: 36.8905, lon: 10.1800}
+  blocks_x: 6
+  blocks_y: 5
+  block_size_m: 85
+  street_width_m: 12
+  random_seed: 2026
+
+architecture:
+  split_level1: 4        # in the street cabinet (FDH)
+  split_level2: 8        # at the distribution point (DP)
+  cabinets: 2
+  dp_max_premises: 8     # = split_level2
+  spare_pon_ports_pct: 20
+  olt_card_ports: 16     # GPON ports per OLT line card
+  cable_slack_pct: 10    # extra cable for slack loops, risers, chamber entries
+  feeder_fibers_spare_pct: 50
+
+optics:
+  class: "B+"
+  class_budget_db: 28.0          # OLT/ONT optics power budget (GPON Class B+)
+  fiber_loss_db_per_km: 0.35     # at 1310 nm (worst of 1310/1490)
+  splitter_loss_db: {4: 7.3, 8: 10.5, 16: 13.8, 32: 17.1}
+  connector_loss_db: 0.3
+  connectors_per_link: 6         # OLT patch, ODF, cabinet in/out, DP, ONT
+  splice_loss_db: 0.1
+  splices_per_link: 8
+  safety_margin_db: 3.0
+
+# Indicative unit costs (TND) for comparing options - replace with supplier quotes
+costs_tnd:
+  olt_chassis: 18000
+  olt_gpon_card_16p: 9500
+  olt_uplink_10g_module: 650
+  gpon_sfp_bplus: 120
+  odf_48_port: 900
+  cabinet_fdh_144: 3200
+  splitter_1x4: 45
+  splitter_1x8: 70
+  dp_closure: 180
+  ont: 150
+  feeder_cable_48f_per_m: 6.5
+  distribution_cable_12f_per_m: 3.2
+  drop_cable_per_m: 1.1
+  civil_works_per_m: 25

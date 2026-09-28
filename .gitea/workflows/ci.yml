@@ -42,6 +42,9 @@ jobs:
           echo "--- Blocking gate (CRITICAL) ---"
           trivy config --quiet --severity CRITICAL --exit-code 1 .
 
+      - name: "Gate 6 - FTTH design rules (optical budget, PON capacity)"
+        run: python3 ftth/tools/ftth_calc.py --check
+
   deploy:
     name: Deploy with Ansible
     needs: gates

@@ -1,0 +1,16 @@
+item,quantity,unit,unit_cost_tnd,total_tnd
+"OLT chassis (dual PSU, dual control)",1,unit,18000,18000
+"OLT GPON line card, 16 ports",2,unit,9500,19000
+GPON SFP Class B+ (ports in use + spare),27,unit,120,3240
+"10G uplink module (2x, redundant LACP)",2,unit,650,1300
+ODF 48 ports,2,unit,900,1800
+Street cabinet FDH 144F,2,unit,3200,6400
+"Splitter 1x4 (level 1, cabinet)",22,unit,45,990
+"Splitter 1x8 (level 2, DP)",84,unit,70,5880
+DP closure / in-building box,84,unit,180,15120
+"ONT (one per premise, 100% take-up case)",500,unit,150,75000
+Feeder cable 48F,1755,m,6.5,11408
+Distribution cable 12F,10401,m,3.2,33283
+Drop cable 1-2F,8581,m,1.1,9439
+Civil works (shared trenches/ducts),8193,m,25,204825
+TOTAL,,,,405685

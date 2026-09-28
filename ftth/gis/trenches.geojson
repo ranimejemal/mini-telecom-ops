@@ -1,0 +1,1512 @@
+{
+ "type": "FeatureCollection",
+ "name": "trenches",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8905539
+     ],
+     [
+      10.1805466,
+      36.8905539
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 2.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1817859,
+      36.8905539
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 5.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8905539
+     ],
+     [
+      10.1841895,
+      36.8905539
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 20.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1802471,
+      36.8906886
+     ],
+     [
+      10.1805466,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 26.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8906886
+     ],
+     [
+      10.1828754,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 20.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1856946,
+      36.8906886
+     ],
+     [
+      10.1859192,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 20,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1858443,
+      36.8910929
+     ],
+     [
+      10.1859192,
+      36.8910929
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 6.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181711,
+      36.8914253
+     ],
+     [
+      10.1817859,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 6.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8914253
+     ],
+     [
+      10.1827069,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 5.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8914253
+     ],
+     [
+      10.183875,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 32.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1846051,
+      36.8914253
+     ],
+     [
+      10.1849982,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 35.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1858443,
+      36.8914253
+     ],
+     [
+      10.1859192,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 6.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805092,
+      36.8919642
+     ],
+     [
+      10.180921,
+      36.8919642
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 36.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8919642
+     ],
+     [
+      10.1849982,
+      36.8919642
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1802471,
+      36.8922966
+     ],
+     [
+      10.1831,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 254,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8922966
+     ],
+     [
+      10.1863685,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 254,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8924314
+     ],
+     [
+      10.1836279,
+      36.8924314
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 10.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8928356
+     ],
+     [
+      10.1831,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1846051,
+      36.8928356
+     ],
+     [
+      10.1848297,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 20.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.8928356
+     ],
+     [
+      10.1850544,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 16.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859941,
+      36.8928356
+     ],
+     [
+      10.1863685,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 33.3,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.893168
+     ],
+     [
+      10.1804717,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 4.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.893168
+     ],
+     [
+      10.1828754,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 40.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.893168
+     ],
+     [
+      10.1838151,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 26.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8933027
+     ],
+     [
+      10.1828754,
+      36.8933027
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 40,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.893707
+     ],
+     [
+      10.1838151,
+      36.893707
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 6.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8940393
+     ],
+     [
+      10.1826507,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8940393
+     ],
+     [
+      10.1850544,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804717,
+      36.8941741
+     ],
+     [
+      10.1806215,
+      36.8941741
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 13.3,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8945783
+     ],
+     [
+      10.1839649,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 40,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8945783
+     ],
+     [
+      10.1856946,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 57,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1822464,
+      36.8963004
+     ],
+     [
+      10.1873,
+      36.8963004
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 449.9,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1802471,
+      36.8906886
+     ],
+     [
+      10.1802471,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 179.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804268,
+      36.8922966
+     ],
+     [
+      10.1804268,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1804717,
+      36.893168
+     ],
+     [
+      10.1804717,
+      36.8941741
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 112.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805088,
+      36.8919642
+     ],
+     [
+      10.1805088,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 37.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1805167,
+      36.8905539
+     ],
+     [
+      10.1805167,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.180547,
+      36.8905539
+     ],
+     [
+      10.180547,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806211,
+      36.8940393
+     ],
+     [
+      10.1806211,
+      36.8941741
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1806964,
+      36.8922966
+     ],
+     [
+      10.1806964,
+      36.8924314
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.180921,
+      36.8919642
+     ],
+     [
+      10.180921,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 37.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1815612,
+      36.8922966
+     ],
+     [
+      10.1815612,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 194.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.181696,
+      36.8922966
+     ],
+     [
+      10.181696,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817106,
+      36.8914253
+     ],
+     [
+      10.1817106,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817297,
+      36.8905539
+     ],
+     [
+      10.1817297,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 194.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1817859,
+      36.8905539
+     ],
+     [
+      10.1817859,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1822464,
+      36.8922966
+     ],
+     [
+      10.1822464,
+      36.8963
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 445.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1824261,
+      36.8928356
+     ],
+     [
+      10.1824261,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 194,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1826507,
+      36.8906886
+     ],
+     [
+      10.1826507,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 373.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1827069,
+      36.8914253
+     ],
+     [
+      10.1827069,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828001,
+      36.8922966
+     ],
+     [
+      10.1828001,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 194.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8905539
+     ],
+     [
+      10.1828754,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1828754,
+      36.8922966
+     ],
+     [
+      10.1828754,
+      36.893707
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 157.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1831,
+      36.8922966
+     ],
+     [
+      10.1831,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1835156,
+      36.8914253
+     ],
+     [
+      10.1835156,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 351.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1836279,
+      36.8922966
+     ],
+     [
+      10.1836279,
+      36.8924314
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1837402,
+      36.8922966
+     ],
+     [
+      10.1837402,
+      36.893707
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 157.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1838155,
+      36.893168
+     ],
+     [
+      10.1838155,
+      36.893707
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.183875,
+      36.8914253
+     ],
+     [
+      10.183875,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 97.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1839649,
+      36.8905539
+     ],
+     [
+      10.1839649,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 448.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1841895,
+      36.8905539
+     ],
+     [
+      10.1841895,
+      36.8906886
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 15.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1844254,
+      36.8922966
+     ],
+     [
+      10.1844254,
+      36.8963
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 445.7,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1846051,
+      36.8914253
+     ],
+     [
+      10.1846051,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 157.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1847174,
+      36.8922966
+     ],
+     [
+      10.1847174,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 194.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848297,
+      36.8905539
+     ],
+     [
+      10.1848297,
+      36.8940393
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 388.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1848747,
+      36.8928356
+     ],
+     [
+      10.1848747,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 37.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1849982,
+      36.8914253
+     ],
+     [
+      10.1849982,
+      36.8919642
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8922966
+     ],
+     [
+      10.1850544,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1850544,
+      36.8940393
+     ],
+     [
+      10.1850544,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 60.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1856946,
+      36.8906886
+     ],
+     [
+      10.1856946,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 433,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.185844,
+      36.8910929
+     ],
+     [
+      10.185844,
+      36.8914253
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 37.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859192,
+      36.8906886
+     ],
+     [
+      10.1859192,
+      36.8922966
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 179.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1859945,
+      36.8928356
+     ],
+     [
+      10.1859945,
+      36.893168
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 37.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1861439,
+      36.8922966
+     ],
+     [
+      10.1861439,
+      36.8945783
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 254.0,
+    "type": "duct/trench"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      10.1863685,
+      36.89156
+     ],
+     [
+      10.1863685,
+      36.8928356
+     ]
+    ]
+   },
+   "properties": {
+    "length_m": 142,
+    "type": "duct/trench"
+   }
+  }
+ ]
+}

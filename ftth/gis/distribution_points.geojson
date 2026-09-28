@@ -1,0 +1,1692 @@
+{
+ "type": "FeatureCollection",
+ "name": "distribution_points",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1802471,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP001",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S01",
+    "pon_port": "0/1/1",
+    "distribution_path_m": 357.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1802471,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP002",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S01",
+    "pon_port": "0/1/1",
+    "distribution_path_m": 357.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.180921,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP003",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S02",
+    "pon_port": "0/1/2",
+    "distribution_path_m": 155.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1806964,
+     36.8924314
+    ]
+   },
+   "properties": {
+    "id": "DP004",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S02",
+    "pon_port": "0/1/2",
+    "distribution_path_m": 260.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1806964,
+     36.8924314
+    ]
+   },
+   "properties": {
+    "id": "DP005",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S02",
+    "pon_port": "0/1/2",
+    "distribution_path_m": 260.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1804717,
+     36.8941741
+    ]
+   },
+   "properties": {
+    "id": "DP006",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S03",
+    "pon_port": "0/1/3",
+    "distribution_path_m": 375.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1804717,
+     36.8941741
+    ]
+   },
+   "properties": {
+    "id": "DP007",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S03",
+    "pon_port": "0/1/3",
+    "distribution_path_m": 375.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1826507,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP008",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S05",
+    "pon_port": "0/1/5",
+    "distribution_path_m": 725.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1826507,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP009",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S05",
+    "pon_port": "0/1/5",
+    "distribution_path_m": 725.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1826507,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP010",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S06",
+    "pon_port": "0/1/6",
+    "distribution_path_m": 300.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1826507,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP011",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S06",
+    "pon_port": "0/1/6",
+    "distribution_path_m": 300.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1831,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP012",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S07",
+    "pon_port": "0/1/7",
+    "distribution_path_m": 136.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1824261,
+     36.8933027
+    ]
+   },
+   "properties": {
+    "id": "DP013",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S07",
+    "pon_port": "0/1/7",
+    "distribution_path_m": 248.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1824261,
+     36.8933027
+    ]
+   },
+   "properties": {
+    "id": "DP014",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S07",
+    "pon_port": "0/1/7",
+    "distribution_path_m": 248.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1828754,
+     36.893707
+    ]
+   },
+   "properties": {
+    "id": "DP015",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S07",
+    "pon_port": "0/1/7",
+    "distribution_path_m": 333.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1828754,
+     36.893707
+    ]
+   },
+   "properties": {
+    "id": "DP016",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S08",
+    "pon_port": "0/1/8",
+    "distribution_path_m": 213.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1824261,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP017",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S08",
+    "pon_port": "0/1/8",
+    "distribution_path_m": 470.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1824261,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP018",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S08",
+    "pon_port": "0/1/8",
+    "distribution_path_m": 470.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8910929
+    ]
+   },
+   "properties": {
+    "id": "DP019",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S01",
+    "pon_port": "0/1/10",
+    "distribution_path_m": 175.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8910929
+    ]
+   },
+   "properties": {
+    "id": "DP020",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S01",
+    "pon_port": "0/1/10",
+    "distribution_path_m": 175.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1841895,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP021",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S01",
+    "pon_port": "0/1/10",
+    "distribution_path_m": 270.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1835156,
+     36.8924314
+    ]
+   },
+   "properties": {
+    "id": "DP022",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S02",
+    "pon_port": "0/1/11",
+    "distribution_path_m": 290.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1835156,
+     36.8924314
+    ]
+   },
+   "properties": {
+    "id": "DP023",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S02",
+    "pon_port": "0/1/11",
+    "distribution_path_m": 290.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1837402,
+     36.893707
+    ]
+   },
+   "properties": {
+    "id": "DP024",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S03",
+    "pon_port": "0/1/12",
+    "distribution_path_m": 218.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1837402,
+     36.893707
+    ]
+   },
+   "properties": {
+    "id": "DP025",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S03",
+    "pon_port": "0/1/12",
+    "distribution_path_m": 218.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1835156,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP026",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S03",
+    "pon_port": "0/1/12",
+    "distribution_path_m": 468.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1835156,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP027",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S04",
+    "pon_port": "0/1/13",
+    "distribution_path_m": 335.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1837402,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP028",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S04",
+    "pon_port": "0/1/13",
+    "distribution_path_m": 355.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1837402,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP029",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S04",
+    "pon_port": "0/1/13",
+    "distribution_path_m": 355.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP030",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S04",
+    "pon_port": "0/1/13",
+    "distribution_path_m": 375.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP031",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S05",
+    "pon_port": "0/1/14",
+    "distribution_path_m": 295.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848297,
+     36.89156
+    ]
+   },
+   "properties": {
+    "id": "DP032",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S05",
+    "pon_port": "0/1/14",
+    "distribution_path_m": 932.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848297,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP033",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S06",
+    "pon_port": "0/1/15",
+    "distribution_path_m": 73.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848297,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP034",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S06",
+    "pon_port": "0/1/15",
+    "distribution_path_m": 73.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1846051,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP035",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S06",
+    "pon_port": "0/1/15",
+    "distribution_path_m": 340.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1846051,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP036",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S07",
+    "pon_port": "0/1/16",
+    "distribution_path_m": 76.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1850544,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP037",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S07",
+    "pon_port": "0/1/16",
+    "distribution_path_m": 236.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1850544,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP038",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S08",
+    "pon_port": "0/2/1",
+    "distribution_path_m": 310.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1850544,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP039",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S08",
+    "pon_port": "0/2/1",
+    "distribution_path_m": 310.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1856946,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP040",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S08",
+    "pon_port": "0/2/1",
+    "distribution_path_m": 800.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1856946,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP041",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S09",
+    "pon_port": "0/2/2",
+    "distribution_path_m": 292.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP042",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S09",
+    "pon_port": "0/2/2",
+    "distribution_path_m": 312.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8906886
+    ]
+   },
+   "properties": {
+    "id": "DP043",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S09",
+    "pon_port": "0/2/2",
+    "distribution_path_m": 312.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8910929
+    ]
+   },
+   "properties": {
+    "id": "DP044",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S09",
+    "pon_port": "0/2/2",
+    "distribution_path_m": 357.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8910929
+    ]
+   },
+   "properties": {
+    "id": "DP045",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S10",
+    "pon_port": "0/2/3",
+    "distribution_path_m": 267.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP046",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S10",
+    "pon_port": "0/2/3",
+    "distribution_path_m": 377.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859192,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP047",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S10",
+    "pon_port": "0/2/3",
+    "distribution_path_m": 377.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.89156
+    ]
+   },
+   "properties": {
+    "id": "DP048",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S11",
+    "pon_port": "0/2/4",
+    "distribution_path_m": 255.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.89156
+    ]
+   },
+   "properties": {
+    "id": "DP049",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S11",
+    "pon_port": "0/2/4",
+    "distribution_path_m": 255.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP050",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S11",
+    "pon_port": "0/2/4",
+    "distribution_path_m": 300.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.8919642
+    ]
+   },
+   "properties": {
+    "id": "DP051",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S11",
+    "pon_port": "0/2/4",
+    "distribution_path_m": 300.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP052",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S12",
+    "pon_port": "0/2/5",
+    "distribution_path_m": 233.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1863685,
+     36.8928356
+    ]
+   },
+   "properties": {
+    "id": "DP053",
+    "type": "in-building",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S12",
+    "pon_port": "0/2/5",
+    "distribution_path_m": 233.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1861439,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP054",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S13",
+    "pon_port": "0/2/6",
+    "distribution_path_m": 407.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1861439,
+     36.8945783
+    ]
+   },
+   "properties": {
+    "id": "DP055",
+    "type": "in-building",
+    "premises": 8,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S13",
+    "pon_port": "0/2/6",
+    "distribution_path_m": 407.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1805466,
+     36.8905539
+    ]
+   },
+   "properties": {
+    "id": "DP056",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S01",
+    "pon_port": "0/1/1",
+    "distribution_path_m": 398.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1805167,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP057",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S01",
+    "pon_port": "0/1/1",
+    "distribution_path_m": 498.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1805092,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP058",
+    "type": "street pole/chamber",
+    "premises": 6,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S02",
+    "pon_port": "0/1/2",
+    "distribution_path_m": 228.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1804268,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP059",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S03",
+    "pon_port": "0/1/3",
+    "distribution_path_m": 259.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1806215,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP060",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S03",
+    "pon_port": "0/1/3",
+    "distribution_path_m": 403.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1817297,
+     36.8905539
+    ]
+   },
+   "properties": {
+    "id": "DP061",
+    "type": "street pole/chamber",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S04",
+    "pon_port": "0/1/4",
+    "distribution_path_m": 240.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1817859,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP062",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S04",
+    "pon_port": "0/1/4",
+    "distribution_path_m": 342.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.181711,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP063",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S04",
+    "pon_port": "0/1/4",
+    "distribution_path_m": 445.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.181696,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP064",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S04",
+    "pon_port": "0/1/4",
+    "distribution_path_m": 544.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1815612,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP065",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S05",
+    "pon_port": "0/1/5",
+    "distribution_path_m": 255.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1828754,
+     36.8905539
+    ]
+   },
+   "properties": {
+    "id": "DP066",
+    "type": "street pole/chamber",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S05",
+    "pon_port": "0/1/5",
+    "distribution_path_m": 760.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1827069,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP067",
+    "type": "street pole/chamber",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S06",
+    "pon_port": "0/1/6",
+    "distribution_path_m": 138.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1826507,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP068",
+    "type": "street pole/chamber",
+    "premises": 2,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S06",
+    "pon_port": "0/1/6",
+    "distribution_path_m": 360.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1828754,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP069",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S08",
+    "pon_port": "0/1/8",
+    "distribution_path_m": 273.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1828005,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP070",
+    "type": "street pole/chamber",
+    "premises": 6,
+    "splitter": "1x8",
+    "cabinet": "CAB01",
+    "l1_splitter": "CAB01-S09",
+    "pon_port": "0/1/9",
+    "distribution_path_m": 243.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8905539
+    ]
+   },
+   "properties": {
+    "id": "DP071",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S01",
+    "pon_port": "0/1/10",
+    "distribution_path_m": 235.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.183875,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP072",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S02",
+    "pon_port": "0/1/11",
+    "distribution_path_m": 146.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1836279,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP073",
+    "type": "street pole/chamber",
+    "premises": 2,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S02",
+    "pon_port": "0/1/11",
+    "distribution_path_m": 315.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1838151,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP074",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S03",
+    "pon_port": "0/1/12",
+    "distribution_path_m": 284.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1839649,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP075",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S05",
+    "pon_port": "0/1/14",
+    "distribution_path_m": 355.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848297,
+     36.8905539
+    ]
+   },
+   "properties": {
+    "id": "DP076",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S05",
+    "pon_port": "0/1/14",
+    "distribution_path_m": 820.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1849982,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP077",
+    "type": "street pole/chamber",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S06",
+    "pon_port": "0/1/15",
+    "distribution_path_m": 148.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848297,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP078",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S07",
+    "pon_port": "0/1/16",
+    "distribution_path_m": 156.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1848747,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP079",
+    "type": "street pole/chamber",
+    "premises": 5,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S07",
+    "pon_port": "0/1/16",
+    "distribution_path_m": 289.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1847174,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP080",
+    "type": "street pole/chamber",
+    "premises": 2,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S08",
+    "pon_port": "0/2/1",
+    "distribution_path_m": 220.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1858443,
+     36.8914253
+    ]
+   },
+   "properties": {
+    "id": "DP081",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S10",
+    "pon_port": "0/2/3",
+    "distribution_path_m": 310.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1861439,
+     36.8922966
+    ]
+   },
+   "properties": {
+    "id": "DP082",
+    "type": "street pole/chamber",
+    "premises": 4,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S12",
+    "pon_port": "0/2/5",
+    "distribution_path_m": 153.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1859941,
+     36.893168
+    ]
+   },
+   "properties": {
+    "id": "DP083",
+    "type": "street pole/chamber",
+    "premises": 3,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S12",
+    "pon_port": "0/2/5",
+    "distribution_path_m": 303.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     10.1861439,
+     36.8940393
+    ]
+   },
+   "properties": {
+    "id": "DP084",
+    "type": "street pole/chamber",
+    "premises": 2,
+    "splitter": "1x8",
+    "cabinet": "CAB02",
+    "l1_splitter": "CAB02-S13",
+    "pon_port": "0/2/6",
+    "distribution_path_m": 467.0
+   }
+  }
+ ]
+}
